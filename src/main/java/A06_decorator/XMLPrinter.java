@@ -8,6 +8,6 @@ class XMLPrinter implements Printer {
     }
 
     public void print(String text) {
-        printer.print("<printer>"+text+"</printer>");
+        printer.print("<message>"+text+"</message>");
     }
 }
