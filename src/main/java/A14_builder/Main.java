@@ -1,7 +1,5 @@
 package A14_builder;
 
-import com.sun.javafx.collections.SourceAdapterChange;
-
 public class Main {
     public static void main(String[] args) {
         ComputerBuilder builder = new GamingComputerBuilder();
