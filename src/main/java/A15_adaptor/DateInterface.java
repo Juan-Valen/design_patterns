@@ -1,0 +1,17 @@
+package A15_adaptor;
+
+public interface DateInterface {
+    void setDay(int day);
+
+    void setMonth(int month);
+
+    void setYear(int year);
+
+    int getDay();
+
+    int getMonth();
+
+    int getYear();
+
+    void advanceDays(int days);
+}
